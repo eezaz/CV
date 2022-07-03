@@ -1,0 +1,38 @@
+body {
+    background-color: powderblue;
+}
+.name:hover {
+    color: blue;
+    font-style: italic;
+   
+}
+.name {
+    
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+}
+.skill{
+    color: rgb(58, 115, 189);
+    font-style: italic;
+}
+.namediv {
+   
+    display: inline-block;
+  
+}
+.outernamediv {
+   /* position:sticky;
+   top: 5px; */
+   border-radius: 30px;
+   /* background-color: antiquewhite; */
+   padding-left: 25%;
+   padding-right: 25%;
+}
+.cloudtopl{
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+.cloudtopr{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
