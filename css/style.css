@@ -1,0 +1,30 @@
+body {
+    background-color: powderblue;
+}
+.name:hover {
+    color: blue;
+}
+.position{
+    color: rgb(58, 115, 189);
+}
+.namediv {
+   
+    display: inline-block;
+    overflow: auto;
+}
+.outernamediv {
+   /* position:sticky;
+   top: 5px; */
+   border-radius: 30px;
+   /* background-color: antiquewhite; */
+   padding-left: 25%;
+   padding-right: 25%;
+}
+.cloudtopl{
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+.cloudtopr{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
