@@ -1,38 +1,115 @@
 body {
-    background-color: powderblue;
+    margin: 0;
+    text-align: center;
+    /* background-image:  linear-gradient(to bottom, rgb(165, 82, 5),rgba(247, 239, 239, 0), rgb(3, 88, 7)),
+  url('img\mountain.png'); */
 }
-.name:hover {
-    color: blue;
-    font-style: italic;
-   
-}
+
+
 .name {
-    
-    color: rgb(15, 156, 11);
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
 }
 .skill{
+    font-size: 2em;
+    margin-top: 0;
+    margin-left: 250px;
     color: rgb(58, 115, 189);
-    font-style: italic;
+    font-family: 'Sacramento', cursive;
 }
-.namediv {
-   
-    display: inline-block;
-  
-}
-.outernamediv {
-   /* position:sticky;
-   top: 5px; */
-   border-radius: 30px;
-   /* background-color: antiquewhite; */
-   padding-left: 25%;
-   padding-right: 25%;
-}
+
 .cloudtopl{
-    margin-bottom: 40px;
-    margin-right: 10px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
 }
+
 .cloudtopr{
-    margin-bottom: 40px;
-    margin-left: 10px;
+    right: 360px;
+    bottom: 540px;
+    position: absolute;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color:aliceblue;
+}
+.profile-image{
+    margin-top: 50px;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.skill-row{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+}
+
+.skill1{
+   
+    border-radius: 100%;
+    height: 150x;
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
+.skill2{
+    
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    float: right;
+    margin-left: 30px;
+}
+hr{
+    
+    border: dotted #555;
+    border-bottom:none;
+    width: 55%;
+}
+
+.btn {
+    font-size:15px;
+    font-family:Arial;
+    width:200px;
+    height:100px;
+    border-width:1px;
+    color:#fff;
+    border-color:#0b0e07;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    text-shadow:inset 0px 1px 0px #263666;
+    background:#2dabf9;
+    padding: 7px 14px;
+    
+  }
+  
+  .btn:hover {
+    background: #0688fa
+  }
+                
+       
+.middle-container{
+    
+}
+.woner{
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 65%;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.bottom-container{
+    background-color: blueviolet;
+    padding: 10px 0 10px;
+    margin-top: 20px ;
 }
